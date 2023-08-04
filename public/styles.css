@@ -1,0 +1,71 @@
+body {
+    background-color: #fff;
+    background-image: url('https://mcdn.wallpapersafari.com/medium/37/97/VTp8No.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+
+#chat-container {
+    position: relative;
+    width: 80%;
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+#user-list {
+    float: right;
+    width: 25%;
+    margin-right: 10px;
+}
+
+#message-list {
+    clear: both;
+    padding-bottom: 50px;
+}
+
+.message {
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#input-container {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    max-width: 800px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#message-input {
+    width: 80%;
+    padding: 5px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+#send-button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #7289DA;
+    color: #fff;
+    cursor: pointer;
+}
+
+#image-input {
+    display: none;
+}
